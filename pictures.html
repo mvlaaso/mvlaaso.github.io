@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music</title>
+    <title>Pictures</title>
     <!--///////NEED FOR ZURB- EDIT FILEPATHS/////-->
     <link rel="stylesheet" href="zurb/css/foundation.css">
     <link rel="stylesheet" href="zurb/css/app.css">
@@ -14,33 +14,6 @@
     <!--///////NEED FOR ZURB- EDIT FILEPATHS/////-->
   </head>
   <body>
-    <SCRIPT>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1)
-history.go(-1);
-if (pass1.toLowerCase() == "letmein") {
-alert('You Got it Right!');
-window.open('protectpage.html');
-break;
-}
-testV+=1;
-var pass1 =
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3)
-history.go(-1);
-return " ";
-}
-</SCRIPT>
-<CENTER>
-<FORM>
-<input type="button" value="Enter Protected Area" onClick="passWord()">
-</FORM>
-</CENTER>
-
     <main class="grid-container">
       <header class="grid-x grid-margin-x grid-padding-x grid-margin-y">
         <div class="large-12 cell">
@@ -48,24 +21,30 @@ return " ";
         </div>
       </header>
 <!--START OF NAV-->
-<section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
-  <div class="cell auto">
-    <a href="index.html">Home</a>
-  </div>
-  <section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
-      <div class="cell auto">
-        <a href="contact.html">Contact</a>
-      </div>
-  <section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
-    <div class="cell auto">
-      <a href="music.html">Music</a>
-    </div>
-    <section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
-        <div class="cell auto">
-          <a href="pictures.html">Pictures</a>
-        </div>
-</section>
+        <section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
+          <div class="cell auto">
+            <a href="index.html">Home</a>
+          </div>
+          <section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
+              <div class="cell auto">
+                <a href="contact.html">Contact</a>
+              </div>
+          <section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
+            <div class="cell auto">
+              <a href="music.html">Music</a>
+            </div>
+            <section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
+                <div class="cell auto">
+                  <a href="pictures.html">Pictures</a>
+                </div>
+  </section>
   <!--END OF NAV-->
+  <section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
+      <figure class="large-6 cell large-offset-3">
+        <img src="img/sheepwelcome600.gif" alt="Welcome sheep.">
+      </figure>
+    </section>
+  </main>
     </main>
     <!-- //////NEED FOR ZURB -EDIT FILEPATHS/////-->
     <script src="zurb/js/vendor/jquery.js"></script>
