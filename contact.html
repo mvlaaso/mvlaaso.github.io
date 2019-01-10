@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>About</title>
     <!--///////NEED FOR ZURB- EDIT FILEPATHS/////-->
     <link rel="stylesheet" href="zurb/css/foundation.css">
     <link rel="stylesheet" href="zurb/css/app.css">
@@ -15,31 +15,37 @@
   </head>
   <body>
     <main class="grid-container">
-      <header class="grid-x grid-margin-x grid-padding-x grid-margin-y">
-        <div class="large-12 cell">
-          <a href="index.html"><h1>MVLA-Adult School Orchestra</h1>
-        </div>
-      </header>
-<!--START OF NAV-->
-<section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
-  <div class="large-3 cell">
-    <a href="index.html">Home</a>
-  </div>
-  <section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
-      <div class="large-3 cell">
-        <a href="contact.html">Contact</a>
-      </div>
-  <section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
-    <div class="large-3 cell">
-      <a href="music.html">Music</a>
+      <!--ZURB RESPONSIVE NAV BAR-->
+      <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="main-nav"></button>
+      <div class="title-bar-title">Contact</div>
     </div>
-    <section class="grid-x grid-margin-x grid-padding-x grid-margin-y">
-        <div class="large-3 cell">
-          <a href="pictures.html">Pictures</a>
-        </div>
-</section>
-  <!--END OF NAV-->
-    </main>
+
+    <nav class="top-bar" id="main-nav">
+      <div class="top-bar-left">
+        <ul class="dropdown vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-auto-height="true" data-animate-height="true">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="pictures.html">Pictures</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <!-- <div class="top-bar-right"> -->
+  <!--         <ul class="menu">
+          <li><input type="search" placeholder="Search"></li>
+          <li><button type="button" class="button">Search</button></li>
+        </ul> -->
+      <!-- </div> -->
+    </nav>
+  <!--ZURB RESPONSIVE NAV BAR-->
+    <header class="grid-x grid-margin-x grid-padding-x">
+      <div class="large-12 cell">
+        <p><br></p><h1><b>MVLA-Adult School Orchestra: Contact</b></h1>
+      </div>
+    </header>
+<!--Needed to close off the page-->
+</main>
     <!-- //////NEED FOR ZURB -EDIT FILEPATHS/////-->
     <script src="zurb/js/vendor/jquery.js"></script>
     <script src="zurb/js/vendor/what-input.js"></script>
