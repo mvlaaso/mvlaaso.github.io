@@ -1,6 +1,6 @@
 h1 {
   font-size: 46px;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Cabin', sans-serif;
   /* margin: 20px 0;
   text-align: center;
   line-height: 50px; */
@@ -17,6 +17,7 @@ ul li a{
 }
 a{
   font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
 }
 a:visited {
     color: black;
